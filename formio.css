@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url(https://cdn.pixabay.com/photo/2017/03/17/18/03/bokeh-2152298_1280.jpg);
+
+}
+
+#title{
+    text-align: center;
+    color: blue;
+}
+#description{
+    text-align: center;
+    font-size:large;
+    color:purple;
+}
+#submit{
+  color:white;
+  background-color:blue;
+}

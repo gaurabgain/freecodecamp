@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>survey form</title>
+    <link rel="stylesheet" href="formio.css">
+
+</head>
+
+<body>
+    <h1 id="title">Apply here.<br>Limited seats available.</h1>
+    <p id="description">This is the best company in this cosmos.</p>
+    <form action="" id="survey-form">
+        <label for="name" id="name-label">Name:</label>
+        <input type="name" id="name" name="name" placeholder="Enter your Name"> <br>
+        <label for="email" id="email-label">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email"><br>
+        <label for="number" id="number-label">Age:</label>
+        <input type="number" id="number" name="number" min="1" max="100" placeholder="Enter your age"><br>
+        <label for="role" id="dropdown">Which option best describes your current role:</label>
+        <select name="role" id="">
+            <option value="Student">Student</option>
+            <option value="Part time job">Part time job</option>
+            <option value="Full time job">Full time job</option>
+            <option value="Prefer not to say">Prefer not to say</option>
+            <option value="Others">Others</option>
+        </select> <br>
+        <label for="radio">Would you recommed your friends for joining this company? <br>
+            <input type="radio" name="join" id="">Yes <br>
+            <input type="radio" name="join" id="">No <br>
+            <input type="radio" name="join">Prefer not to say <br>
+        </label>
+        <label for="">What is your language of preference (please select all that apply)</label><br>
+        <input type="checkbox" value="HTML" name="" id="">HTML <br>
+        <input type="checkbox" value="CSS">CSS <br>
+        <input type="checkbox" value="Javascript">Javascript<br>
+        <input type="checkbox" value="Python">Python<br>
+        <input type="checkbox" value="Ruby">Ruby<br>
+        <input type="checkbox" value="Typescript">Typescript<br>
+        <input type="checkbox" value="Go">Go<br>
+        <input type="checkbox" value="React">React<br>
+        <input type="checkbox" value="Swift">Swift<br>
+        <input type="checkbox" value="Java">Java<br>
+        <input type="checkbox" value="Kotlin">Kotlin<br>
+        <input type="checkbox" value="php">php<br>
+        <input type="checkbox" value="C">C<br>
+        <input type="checkbox" value="C++">C++<br>
+        <input type="checkbox" value="C#">C#<br>
+        <label for="comments">Any comments or sugestion:</label><br>
+        <input type="textarea"><br>
+        <input type="submit" id="submit">
+
+
+    </form>
+</body>
+
+</html>
